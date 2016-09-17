@@ -1,2 +1,1 @@
 # shadowrocke.conf
-- wo de 
