@@ -6,8 +6,10 @@
 
 - 默认：https://raw.githubusercontent.com/kimanlo/shadowrocket/master/shadowrocket.conf
 
-- DNS测试：https://raw.githubusercontent.com/kimanlo/shadowrocket/master/dns.conf
+- DNS：https://raw.githubusercontent.com/kimanlo/shadowrocket/master/dns.conf
 
 # 更新日志
 
-[2016/10/7] 全新上线
+- [2016-10-09 16:35:07] 修复规则
+
+- [2016-10-07 10:10:16] 全新上线
