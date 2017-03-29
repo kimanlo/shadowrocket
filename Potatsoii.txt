@@ -1,17 +1,25 @@
 [RULESET.reject]
-name = "屏蔽"
+name = "Reject"
 rules = [
-
+    "DOMAIN-MATCH, adsmogo, REJECT"
 ]
 
-[RULESET.Lan]
+[RULESET.lan]
 name = "LAN"
 rules = [
-
+    "IP-CIDR, 10.0.0.0/8, DIRECT",
+    "IP-CIDR, 100.64.0.0/10, DIRECT",
+    "IP-CIDR, 127.0.0.0/8, DIRECT",
+    "IP-CIDR, 172.16.0.0/12, DIRECT",
+    "IP-CIDR, 192.168.0.0/16, DIRECT",
+    "IP-CIDR, 19.123.1.0/24, DIRECT",
+    "IP-CIDR, 19.123.2.0/24, DIRECT",
+    "IP-CIDR, 19.123.94.0/24, DIRECT",
+    "IP-CIDR, 172.169.36.0/24, DIRECT"
 ]
 
-[RULESET.Apple]
-name = "苹果"
+[RULESET.apple]
+name = "Apple"
 rules = [
     "DOMAIN-SUFFIX, itunes.apple.com, DIRECT",
     "DOMAIN-SUFFIX, apple.com, DIRECT",
@@ -31,7 +39,7 @@ rules = [
     "DOMAIN, beta.itunes.apple.com, PROXY"
 ]
 
-[RULESET.Google]
+[RULESET.google]
 name = "谷歌"
 rules = [
     "DOMAIN-MATCH, doubleclick, REJECT",
@@ -67,13 +75,13 @@ rules = [
 ]
 
 [RULESET.direct]
-name = "直连"
+name = "Direct"
 rules = [
-
+    "DOMAIN-SUFFIX, qq.com, DIRECT"
 ]
 
 [RULESET.proxy]
-name = "代理"
+name = "Proxy"
 rules = [
-helpshift.com
+    "DOMAIN-SUFFIX, helpshift.com, PROXY"
 ]
