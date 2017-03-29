@@ -75,5 +75,5 @@ rules = [
 [RULESET.proxy]
 name = "代理"
 rules = [
-
+helpshift.com
 ]
