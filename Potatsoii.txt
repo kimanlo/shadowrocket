@@ -7,7 +7,7 @@ rules = [
     "DOMAIN-SUFFIX, domob.cn, Reject",
     "DOMAIN-SUFFIX, domob.com.cn, Reject",
     "DOMAIN-SUFFIX, domob.org, Reject",
-    "DOMAIN-SUFFIX, domobcdn.com, Reject"
+    "DOMAIN-SUFFIX, domobcdn.com, Reject",
     "DOMAIN-SUFFIX, doubleclick.net, Reject",
     "DOMAIN-SUFFIX, duomeng.cn, Reject",
     "DOMAIN-SUFFIX, duomeng.net, Reject",
@@ -18,7 +18,7 @@ rules = [
     "DOMAIN-SUFFIX, umeng.co, Reject",
     "DOMAIN-SUFFIX, umengcloud.com, Reject",
     "DOMAIN-SUFFIX, umeng.net, Reject",
-    "DOMAIN-SUFFIX, flurry.co, Reject",
+    "DOMAIN-SUFFIX,flurry.co, Reject",
     "DOMAIN-SUFFIX, talkingdata, Reject",
     "DOMAIN-SUFFIX, allyes.co, Reject",
     "DOMAIN-SUFFIX, 37cs.com, Reject",
