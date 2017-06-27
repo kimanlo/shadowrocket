@@ -1,6 +1,5 @@
 #	说明
 
-> 默认不设置规则  
 > 含广告过滤规则，默认走代理  
 > https://raw.githubusercontent.com/kimanlo/shadowrocket/master/shadowrocket.conf  
 
