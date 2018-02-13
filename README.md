@@ -1,12 +1,14 @@
 #	说明
 
-> 借鉴@[git@github.com:lhie1](https://github.com/lhie1/Surge)的规则，精简大量本人不常用的规则  
+> 借鉴@[git@github.com:lhie1](https://github.com/lhie1/Surge)的部分规则，精简大量本人不常用的规则  
 > 本规则是本人常用规则，含广告过滤规则，默认走代理  
 > https://raw.githubusercontent.com/kimanlo/shadowrocket/master/shadowrocket.conf  
 
 ## 更新日志
 | Date | Description |
 | ------| -----------|
+| 2018-02-13 | apple服务走代理，增加广告过滤规则 |
+| 2017-09-11 | 完善规则 |
 | 2017-06-27 | 完善规则 |
 | 2017-06-27 | 完善规则 |
 | 2017-03-19 | 完善规则 |
